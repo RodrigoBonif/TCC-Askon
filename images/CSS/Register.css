@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bloco-logo {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    background-color: #111111;
+    right: 0;
+}
+.bloco-img {
+    width: 400px;
+    height: 350px;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 270px auto;
+    border: 1px solid #FE7D20;
+}
+.bloco-register {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background-color: #FE7D20;
+}
+.conteudo-register {
+    width: 800px;
+    height: 560px;
+    padding-top: 40px;
+    margin: 180px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.texto-login {
+    color: #111111;
+    font-size: 60px;
+}
+.input-register {
+    width: 380px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #111111;
+    margin-left: 10px;
+    transition: all 0.2s ease-out;
+    color: #FE7D20;
+}
+.input-register::placeholder {
+    color: #FE7D20;
+}
+.input-register:focus {
+    background-color: #FE7D20;
+    color: white;
+}
+.botão-register {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #111111;
+    border: 1px solid white;
+    color: #FE7D20;
+    font-size: 25px;
+    transition: all 0.2s ease-out
+}
+.botão-register:hover {
+    background-color: #FE7D20;
+    color: #111111;
+    cursor: pointer;
+}
+.texto-register {
+    font-size: 30px;
+    text-decoration: none;
+    color: #111111;
+}
